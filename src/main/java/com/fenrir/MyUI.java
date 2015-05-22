@@ -53,13 +53,13 @@ public class MyUI extends UI {
         submit.addClickListener(new Button.ClickListener() {
             public void buttonClick(ClickEvent event) {
                 if (tfUsername.getValue().equals("admin") && tfPassword.getValue().equals("password")) {
-                    authenticateView(layout, new Label(tfUsername.getValue()));
+                    authenticateView(layout, new String(tfUsername.getValue()));
                 }
             }
         });
     }
 
-    private void authenticateView(final VerticalLayout layout, final Label username) {
+    private void authenticateView(final VerticalLayout layout, final String username) {
         layout.removeAllComponents();
 
         ProgressBar waitingVerify = new ProgressBar();
@@ -74,7 +74,7 @@ public class MyUI extends UI {
 
         btnSkip.addClickListener(new Button.ClickListener() {
             public void buttonClick(ClickEvent event) {
-                mainView(layout, new Label(username));
+                mainView(layout, new String(username));
             }
         });
         btnCancel.addClickListener(new Button.ClickListener() {
@@ -84,7 +84,7 @@ public class MyUI extends UI {
         });
     }
 
-    private void mainView(final VerticalLayout layout, final Label username) {
+    private void mainView(final VerticalLayout layout, final String username) {
         layout.removeAllComponents();
 
         Label greetUser = new Label("Hello, " + username + "!");
