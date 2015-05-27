@@ -87,14 +87,18 @@ public class MyUI extends UI {
     private void mainView(final VerticalLayout layout, final String username) {
         layout.removeAllComponents();
 
+        HorizontalLayout menuView = new HorizontalLayout();
+        menuView.setSizeFull();
+        layout.addComponent(menuView);
+
         Label greetUser = new Label("Hello, " + username + "!");
 
         Button btnEdit = new Button("edit user");
         Button btnLogout = new Button("logout user");
 
         layout.addComponent(greetUser);
-        layout.addComponent(btnEdit);
-        layout.addComponent(btnLogout);
+        menuView.addComponent(btnEdit);
+        menuView.addComponent(btnLogout);
 
         btnLogout.addClickListener(new Button.ClickListener() {
             public void buttonClick(ClickEvent event) {
