@@ -2,6 +2,7 @@ package com.fenrir;
 
 import javax.servlet.annotation.WebServlet;
 
+import com.vaadin.annotations.DesignRoot;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.annotations.Widgetset;
@@ -12,6 +13,7 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.*;
 import com.vaadin.ui.Button.ClickEvent;
+import com.vaadin.ui.declarative.Design;
 
 /**
  *
@@ -21,90 +23,115 @@ import com.vaadin.ui.Button.ClickEvent;
 public class MyUI extends UI {
 
     Navigator navigator;
+
+    protected static final String LOGINVIEW = "login";
     protected static final String MAINVIEW = "main";
+    protected String username = "";
+    public boolean authenticated = false;
 
     @Override
     protected void init(VaadinRequest vaadinRequest) {
         getPage().setTitle("FENRIR login");
 
-        // start login view
-        loginView();
+        // navigator
+        navigator = new Navigator(this, this);
+
+        // register views
+        navigator.addView(LOGINVIEW, new LoginView());
+        navigator.addView(MAINVIEW, new MainView());
     }
 
-    private void loginView() {
-        final VerticalLayout layout = new VerticalLayout();
-        layout.removeAllComponents();
-        setContent(layout);
+    public class LoginView extends VerticalLayout implements View {
 
-        Label logo = new Label("FENRIRsecurity");
+        public LoginView() {
+            setSizeFull();
 
-        final TextField tfUsername = new TextField();
-        tfUsername.setValue("Username");
-        final PasswordField tfPassword = new PasswordField();
-        tfPassword.setValue("Password");
+            Label logo = new Label("FENRIRsecurity");
 
-        Button submit = new Button("Login");
+            final TextField tfUsername = new TextField();
+            tfUsername.setValue("Username");
+            final PasswordField tfPassword = new PasswordField();
+            tfPassword.setValue("Password");
 
-        layout.addComponent(logo);
-        layout.addComponent(tfUsername);
-        layout.addComponent(tfPassword);
-        layout.addComponent(submit);
+            Button submit = new Button("Login",
+                    new Button.ClickListener() {
+                        @Override
+                        public void buttonClick(Button.ClickEvent event) {
+                            if (tfUsername.getValue().equals("admin") && tfPassword.getValue().equals("password")) {
+                                username = tfUsername.getValue();
+                                authenticated = true;
+                                navigator.navigateTo(MAINVIEW);
+                            }
+                        }
+                    });
 
-        submit.addClickListener(new Button.ClickListener() {
-            public void buttonClick(ClickEvent event) {
-                if (tfUsername.getValue().equals("admin") && tfPassword.getValue().equals("password")) {
-                    authenticateView(layout, new String(tfUsername.getValue()));
+            addComponent(logo);
+            addComponent(tfUsername);
+            addComponent(tfPassword);
+            addComponent(submit);
+        }
+
+        @Override
+        public void enter(ViewChangeListener.ViewChangeEvent event) {
+            Notification.show("FENRIR secured");
+        }
+    }
+
+    @DesignRoot
+    public class MainView extends VerticalLayout implements View {
+
+        class ButtonListener implements Button.ClickListener {
+            String menuItem;
+            public ButtonListener(String menuItem) {
+                this.menuItem = menuItem;
+            }
+
+            @Override
+            public void buttonClick(Button.ClickEvent event) {
+                navigator.navigateTo(MAINVIEW + "/" + menuItem);
+            }
+        }
+
+        VerticalLayout menuContent;
+        Panel equalPanel;
+        Button logout;
+
+        public MainView() {
+            Design.read(this);
+
+            menuContent.addComponent(new Button("Edit profile",
+                    new ButtonListener("editProfile")));
+            menuContent.addComponent(new Button("List Users",
+                    new ButtonListener("listUsers")));
+
+            logout.addClickListener(new Button.ClickListener() {
+                @Override
+                public void buttonClick(Button.ClickEvent event) {
+                    authenticated = false;
+                    navigator.navigateTo(LOGINVIEW);
                 }
+            });
+        }
+
+        @DesignRoot
+        class ProfileView extends VerticalLayout {
+            Label watching;
+
+            public ProfileView(String item) {
+                Design.read(this);
+
+                watching.setValue("Viewing page: " + item);
             }
-        });
-    }
+        }
 
-    private void authenticateView(final VerticalLayout layout, final String username) {
-        layout.removeAllComponents();
-
-        ProgressBar waitingVerify = new ProgressBar();
-        waitingVerify.setIndeterminate(true);
-
-        Button btnSkip = new Button("skip");
-        Button btnCancel = new Button("cancel");
-
-        layout.addComponent(waitingVerify);
-        layout.addComponent(btnSkip);
-        layout.addComponent(btnCancel);
-
-        btnSkip.addClickListener(new Button.ClickListener() {
-            public void buttonClick(ClickEvent event) {
-                mainView(layout, new String(username));
-            }
-        });
-        btnCancel.addClickListener(new Button.ClickListener() {
-            public void buttonClick(ClickEvent event) {
-                loginView();
-            }
-        });
-    }
-
-    private void mainView(final VerticalLayout layout, final String username) {
-        layout.removeAllComponents();
-
-        HorizontalLayout menuView = new HorizontalLayout();
-        menuView.setSizeFull();
-        layout.addComponent(menuView);
-
-        Label greetUser = new Label("Hello, " + username + "!");
-
-        Button btnEdit = new Button("edit user");
-        Button btnLogout = new Button("logout user");
-
-        layout.addComponent(greetUser);
-        menuView.addComponent(btnEdit);
-        menuView.addComponent(btnLogout);
-
-        btnLogout.addClickListener(new Button.ClickListener() {
-            public void buttonClick(ClickEvent event) {
-                loginView();
-            }
-        });
+        @Override
+        public void enter(ViewChangeListener.ViewChangeEvent event) {
+            if (event.getParameters() == null || event.getParameters().isEmpty() && authenticated) {
+                equalPanel.setContent(new Label("Hello, " + username));
+                return;
+            } else
+                navigator.navigateTo(LOGINVIEW);
+        }
     }
 
     @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)
