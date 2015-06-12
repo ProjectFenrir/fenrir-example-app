@@ -1,6 +1,8 @@
 package com.fenrir;
 
 import javax.servlet.annotation.WebServlet;
+import java.security.MessageDigest;
+import java.sql.SQLException;
 
 import com.vaadin.annotations.DesignRoot;
 import com.vaadin.annotations.Theme;
@@ -27,16 +29,13 @@ public class MyUI extends UI {
 
     protected static final String LOGINVIEW = "login";
     protected static final String MAINVIEW = "main";
-    protected String username = "";
 
     @Override
     protected void init(VaadinRequest vaadinRequest) {
         getPage().setTitle("FENRIR login");
 
-        // navigator
         navigator = new Navigator(this, this);
-
-        // register views
+//        Register views
         navigator.addView(LOGINVIEW, new LoginView());
         navigator.addView(MAINVIEW, new MainView());
     }
@@ -59,9 +58,11 @@ public class MyUI extends UI {
                     new Button.ClickListener() {
                         @Override
                         public void buttonClick(Button.ClickEvent event) {
-                            // verify user credentials
-                            user = new User(tfUsername.getValue(), tfCompany.getValue());
+//                            Verify user credentials
+                            user = new User(tfUsername.getValue(), tfCompany.getValue(), tfPassword.getValue());
                             user.verify();
+                            tfPassword.setValue(user.getPassword());
+//                            If state (=2); grant access
                             if (user.getState() == 2) {
                                 navigator.navigateTo(MAINVIEW);
                             } else {
@@ -85,7 +86,6 @@ public class MyUI extends UI {
 
     @DesignRoot
     public class MainView extends VerticalLayout implements View {
-
         class ButtonListener implements Button.ClickListener {
             String menuItem;
             public ButtonListener(String menuItem) {
@@ -125,18 +125,29 @@ public class MyUI extends UI {
 
             public ProfileView(String item) {
                 Design.read(this);
-
                 watching.setValue("Viewing page: " + item);
             }
         }
 
         @Override
         public void enter(ViewChangeListener.ViewChangeEvent event) {
-            if (event.getParameters() == null || event.getParameters().isEmpty()) {
-                equalPanel.setContent(new Label("Hello, " + user.getUsername()));
-                return;
-            } else
-                equalPanel.setContent(new ProfileView(event.getParameters()));
+//            If no user session is found; redirect to login
+            if (user == null)
+                navigator.navigateTo(LOGINVIEW);
+
+            if (user != null) {
+//            If user session is found, but not authorised; redirect to login
+                if (user.getState() != 2) {
+                    navigator.navigateTo(LOGINVIEW);
+//            If authorised; grant access and redirect to main
+                } else {
+                    if (event.getParameters() == null || event.getParameters().isEmpty()) {
+                        equalPanel.setContent(new Label("Hello, " + user.getUsername()));
+                        return;
+                    } else
+                        equalPanel.setContent(new ProfileView(event.getParameters()));
+                }
+            }
         }
     }
 
