@@ -1,9 +1,8 @@
 package com.fenrir;
 
 import javax.servlet.annotation.WebServlet;
-import java.security.MessageDigest;
-import java.sql.SQLException;
 
+import com.fenrir.util.logger.LoginLogger;
 import com.vaadin.annotations.DesignRoot;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
@@ -16,6 +15,8 @@ import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.*;
 import com.vaadin.ui.declarative.Design;
 
+import java.io.IOException;
+
 /**
  * Created by Lars Hoevenaar
  *
@@ -26,6 +27,7 @@ public class MyUI extends UI {
 
     Navigator navigator;
     User user;
+    LoginLogger log = null;
 
     protected static final String LOGINVIEW = "login";
     protected static final String MAINVIEW = "main";
@@ -33,6 +35,9 @@ public class MyUI extends UI {
     @Override
     protected void init(VaadinRequest vaadinRequest) {
         getPage().setTitle("FENRIR login");
+
+//        Create loggin session
+        log = new LoginLogger();
 
         navigator = new Navigator(this, this);
 //        Register views
@@ -58,14 +63,21 @@ public class MyUI extends UI {
                     new Button.ClickListener() {
                         @Override
                         public void buttonClick(Button.ClickEvent event) {
+                            try {
+                                log.init();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
 //                            Verify user credentials
                             user = new User(tfUsername.getValue(), tfCompany.getValue(), tfPassword.getValue());
                             user.verify();
                             tfPassword.setValue(user.getPassword());
 //                            If state (=2); grant access
                             if (user.getState() == 2) {
+                                log.logUser(tfUsername.getValue(), true);
                                 navigator.navigateTo(MAINVIEW);
                             } else {
+                                log.logUser(tfUsername.getValue(), false);
                                 Notification.show("Incorrect credentials");
                             }
                         }

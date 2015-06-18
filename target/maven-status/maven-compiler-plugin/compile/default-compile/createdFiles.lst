@@ -5,4 +5,5 @@ com\fenrir\DBConnect.class
 com\fenrir\MyUI$MainView$1.class
 com\fenrir\MyUI$LoginView.class
 com\fenrir\MyUI$LoginView$1.class
+com\fenrir\util\logger\LoginLogger.class
 com\fenrir\User.class
