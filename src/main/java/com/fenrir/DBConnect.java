@@ -31,10 +31,22 @@ public class DBConnect {
         conn = DriverManager.getConnection(URL, user, password);
     }
 
-    protected String getPassword(String clientUsername, String clientCompany) throws SQLException {
+    protected int getClientId(String clientUsername, String clientCompany) throws SQLException {
+        int clientId = 0;
+        stmt = conn.createStatement();
+        rs = stmt.executeQuery("SELECT id FROM users WHERE username LIKE '" + clientUsername + "' AND company LIKE '" + clientCompany + "'");
+        rs = stmt.getResultSet();
+        while (rs.next())
+            clientId = rs.getInt(1);
+        stmt.close();
+
+        return clientId;
+    }
+
+    protected String getPassword(int clientId) throws SQLException {
         String clientHashPassword = "";
         stmt = conn.createStatement();
-        rs = stmt.executeQuery("SELECT password FROM users WHERE username LIKE '" + clientUsername + "' AND company LIKE '" + clientCompany + "'");
+        rs = stmt.executeQuery("SELECT password FROM users WHERE id LIKE '" + clientId + "'");
         rs = stmt.getResultSet();
         while (rs.next())
             clientHashPassword = rs.getString(1);
@@ -43,10 +55,10 @@ public class DBConnect {
         return clientHashPassword;
     }
 
-    protected String getSalt(String clientUsername, String clientCompany) throws SQLException {
+    protected String getSalt(int clientId) throws SQLException {
         String clientSalt = "";
         stmt = conn.createStatement();
-        rs = stmt.executeQuery("SELECT salt FROM users WHERE username LIKE '" + clientUsername + "' AND company LIKE '" + clientCompany + "'");
+        rs = stmt.executeQuery("SELECT salt FROM users WHERE id LIKE '" + clientId + "'");
         rs = stmt.getResultSet();
         while (rs.next())
             clientSalt = rs.getString(1);
@@ -55,8 +67,8 @@ public class DBConnect {
         return clientSalt;
     }
 
-    protected String getHashPassword(String clientUsername, String clientCompany, String clientPassword) throws SQLException {
-        String clientSalt = getSalt(clientUsername, clientCompany);
+    protected String getHashPassword(int clientId, String clientPassword) throws SQLException {
+        String clientSalt = getSalt(clientId);
         String clientHashPassword = clientPassword + clientSalt;
 
         MessageDigest md = null;
@@ -75,5 +87,17 @@ public class DBConnect {
         clientHashPassword = sb.toString();
 
         return clientHashPassword;
+    }
+
+    protected String getEmail(int clientId) throws SQLException {
+        String clientEmail = "";
+        stmt = conn.createStatement();
+        rs = stmt.executeQuery("SELECT email FROM users WHERE id LIKE '" + clientId + "'");
+        rs = stmt.getResultSet();
+        while (rs.next())
+            clientEmail = rs.getString(1);
+        stmt.close();
+
+        return clientEmail;
     }
 }

@@ -2,6 +2,7 @@ package com.fenrir;
 
 import javax.servlet.annotation.WebServlet;
 
+import com.fenrir.mailer.SendVerificationEmail;
 import com.fenrir.util.logger.UserLogger;
 import com.vaadin.annotations.DesignRoot;
 import com.vaadin.annotations.Theme;
@@ -16,6 +17,9 @@ import com.vaadin.ui.*;
 import com.vaadin.ui.declarative.Design;
 
 import java.io.IOException;
+import java.math.BigInteger;
+import java.security.SecureRandom;
+import java.sql.SQLException;
 
 /**
  * Created by Lars Hoevenaar
@@ -27,9 +31,14 @@ public class MyUI extends UI {
 
     Navigator navigator;
     User user;
+    DBConnect db = null;
     UserLogger log = null;
+    SecureRandom random;
+
+    Integer token;
 
     protected static final String LOGINVIEW = "login";
+    protected static final String VERIFICATIONVIEW = "verification";
     protected static final String MAINVIEW = "main";
 
     @Override
@@ -42,6 +51,7 @@ public class MyUI extends UI {
         navigator = new Navigator(this, this);
 //        Register views
         navigator.addView(LOGINVIEW, new LoginView());
+        navigator.addView(VERIFICATIONVIEW, new VerificationView());
         navigator.addView(MAINVIEW, new MainView());
     }
 
@@ -68,17 +78,42 @@ public class MyUI extends UI {
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
-//                            Verify user credentials
-                            user = new User(tfUsername.getValue(), tfCompany.getValue(), tfPassword.getValue());
-                            user.verify();
-                            tfPassword.setValue(user.getPassword());
-//                            If state (=2); grant access
-                            if (user.getState() == 2) {
-                                log.logVerification(tfUsername.getValue(), true);
-                                navigator.navigateTo(MAINVIEW);
-                            } else {
-                                log.logVerification(tfUsername.getValue(), false);
-                                Notification.show("Incorrect credentials");
+
+//                            Get user id & email
+                            db = new DBConnect();
+                            int clientId = 0;
+                            String clientEmail = "";
+                            try {
+                                db.connect();
+                                clientId = db.getClientId(tfUsername.getValue(), tfCompany.getValue());
+                                if (clientId != 0) {
+                                    clientEmail = db.getEmail(clientId);
+                                    random = new SecureRandom();
+                                    token = random.nextInt(99999 - 10000 + 1) + 10000;
+
+//                                    Verify user credentials
+                                    user = new User(clientId, tfUsername.getValue(), tfPassword.getValue(), tfCompany.getValue(), clientEmail);
+                                    user.verify();
+                                    tfPassword.setValue(user.getPassword());
+//                                    If state (=2); grant access
+                                    if (user.getState() == 2) {
+                                        log.logVerification(tfUsername.getValue(), true);
+                                        SendVerificationEmail mail = new SendVerificationEmail();
+                                        mail.sendEmail(user.getUsername(), user.getEmail(), token);
+                                        navigator.navigateTo(VERIFICATIONVIEW);
+                                    } else {
+                                        log.logVerification("@unknownuser@", false);
+                                        Notification.show("Unknown user");
+                                    }
+                                tfCompany.setValue("Company");
+                                tfUsername.setValue("Username");
+                                tfPassword.setValue("Password");
+                                } else {
+                                    log.logVerification(tfUsername.getValue(), false);
+                                    Notification.show("Incorrect credentials");
+                                }
+                            } catch (SQLException e) {
+                                e.printStackTrace();
                             }
                         }
                     });
@@ -93,6 +128,43 @@ public class MyUI extends UI {
         @Override
         public void enter(ViewChangeListener.ViewChangeEvent event) {
             Notification.show("FENRIR secured");
+        }
+    }
+
+    @DesignRoot
+    public class VerificationView extends VerticalLayout implements View {
+
+        int incorrectTokenEntry = 0;
+
+        public VerificationView() {
+            setSizeFull();
+
+            final TextField tfToken = new TextField();
+            tfToken.setValue("Token");
+
+            Button submit = new Button("Okay",
+                    new Button.ClickListener() {
+                        @Override
+                        public void buttonClick(Button.ClickEvent event) {
+                            if (tfToken.getValue().equals(token.toString())) {
+                                navigator.navigateTo(MAINVIEW);
+                            } else {
+                                tfToken.setValue("token");
+                                incorrectTokenEntry++;
+                                if (incorrectTokenEntry > 2) {
+                                    navigator.navigateTo(LOGINVIEW);
+                                }
+                            }
+                        }
+                    });
+
+            addComponent(tfToken);
+            addComponent(submit);
+        }
+
+        @Override
+        public void enter(ViewChangeListener.ViewChangeEvent event) {
+            Notification.show("Requesting token");
         }
     }
 

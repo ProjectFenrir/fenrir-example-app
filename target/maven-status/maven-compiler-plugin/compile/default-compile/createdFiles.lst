@@ -1,9 +1,13 @@
 com\fenrir\MyUI$MainView$ProfileView.class
+com\fenrir\mailer\SendVerificationEmail.class
 com\fenrir\MyUI$MainView$ButtonListener.class
 com\fenrir\MyUI$MainView.class
 com\fenrir\DBConnect.class
 com\fenrir\MyUI$MainView$1.class
+com\fenrir\MyUI$VerificationView$1.class
+com\fenrir\MyUI$VerificationView.class
 com\fenrir\MyUI$LoginView.class
 com\fenrir\MyUI$LoginView$1.class
-com\fenrir\util\logger\LoginLogger.class
+com\fenrir\mailer\SendVerificationEmail$1.class
+com\fenrir\util\logger\UserLogger.class
 com\fenrir\User.class

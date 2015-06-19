@@ -19,16 +19,20 @@ public class User {
     DBConnect db = null;
 
     private int state;
+    private int id;
     private String username;
-    private String company;
     private String password;
+    private String email;
+    private String company;
     private String clientHashPassword;
     private String clientPassword;
 
-    public User(String username, String company, String password) {
+    public User(int id, String username, String password, String company, String email) {
+        this.id = id;
         this.username = username;
-        this.company = company;
         this.password = password;
+        this.company = company;
+        this.email = email;
     }
 
     public void verify() {
@@ -40,12 +44,12 @@ public class User {
         }
 
         try {
-            clientHashPassword = db.getPassword(username, company);
+            clientHashPassword = db.getPassword(id);
         } catch (SQLException e) {
             e.printStackTrace();
         }
         try {
-            clientPassword = db.getHashPassword(username, company, this.password);
+            clientPassword = db.getHashPassword(id, password);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -80,6 +84,7 @@ public class User {
         return username;
     }
     protected String getPassword() { return clientPassword; }
+    protected String getEmail() { return email; }
     protected void setState(int state) {
         this.state = state;
     }
