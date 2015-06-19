@@ -2,12 +2,257 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2799eba3-932e-475a-a838-9ad5538fc4d8" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\dev\school\fenrir\fenrir-example-app\src\main\java\com\fenrir\util\logger\LoginLogger.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$MyUIServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$MyUIServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI.class" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss.cache" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss.cache" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\src\main\webapp\VAADIN\themes\mytheme\styles.scss.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\i18n\client\CurrencyList_.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\i18n\client\constants\NumberConstantsImpl_.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\i18n\client\impl\LocaleInfoImpl_.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\i18n\client\impl\LocaleInfoImpl_shared.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\lang\com_00046fenrir_00046MyAppWidgetset__EntryMethodHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\user\client\DocumentModeAsserter_DocumentModeProperty.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\user\client\impl\WindowImplIE_Resources_default_InlineClientBundleGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\user\client\ui\MenuBar_Resources_default_InlineClientBundleGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\user\client\ui\impl\ClippedImageImpl_DraggableTemplateImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\user\client\ui\impl\ClippedImageImpl_TemplateImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\useragent\client\UserAgentImplGecko1_8.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\useragent\client\UserAgentImplIe10.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\useragent\client\UserAgentImplIe8.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\useragent\client\UserAgentImplIe9.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\google\gwt\useragent\client\UserAgentImplSafari.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\vaadin\client\debug\internal\theme\DebugWindowStyles_default_InlineClientBundleGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\vaadin\client\metadata\ConnectorBundleLoaderImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\vaadin\client\ui\dd\VAcceptCriterionFactoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\vaadin\client\ui\richtextarea\VRichTextToolbar_Images_default_InlineClientBundleGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\.generated\com\vaadin\client\ui\richtextarea\VRichTextToolbar_Strings_.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\VAADIN\themes\mytheme\addons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\VAADIN\themes\mytheme\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\VAADIN\themes\mytheme\mytheme.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\VAADIN\themes\mytheme\styles.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\VAADIN\themes\mytheme\styles.scss.cache" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E0481" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FCE" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD1" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD4" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E307D" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3134" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E31B8" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3216" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3CDA" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3D75" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3F36" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E403B" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4127" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4130" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\WEB-INF\deploy\com.fenrir.MyAppWidgetset\rpcPolicyManifest\manifest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\74AC4EA37EE5340A1572DC5AD25DBA27.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\7D61211544CAA6067611FE9DD2842785.cache.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\8581E5337BF636CA3FEDFFE056828C01.cache.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\A4F04212CD7F33DE66E45CB768094232.cache.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\CDE2AA2E2ED71DC1128A39DE2CB694E6.cache.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\clear.cache.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\com.fenrir.MyAppWidgetset.devmode.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\com.fenrir.MyAppWidgetset.nocache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\compilation-mappings.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\1.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\2.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\3.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\4.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\5.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\6.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\7.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\8.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\9.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyAppWidgetset.gwt.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$AuthenticateView.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$LoginView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$LoginView.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$MainView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$MainView.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI$MyUIServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\classes\com\fenrir\MyUI.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\atmosphere-runtime-2.2.4.vaadin5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\flute-1.3.0.gg2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\guava-16.0.1.vaadin1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\jsoup-1.8.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\sac-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\streamhtmlparser-jsilver-0.0.10.vaadin1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\vaadin-push-7.4.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\vaadin-sass-compiler-0.9.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\vaadin-server-7.4.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\vaadin-shared-7.4.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\vaadin-slf4j-jdk14-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\LoginApp-1.0-SNAPSHOT\WEB-INF\lib\vaadin-themes-7.4.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E0481" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FCE" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD1" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD4" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E307D" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3134" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E31B8" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3216" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3CDA" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3D75" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3F36" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E403B" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4127" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4130" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\gwt-unitCache\gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\WEB-INF\deploy\com.fenrir.MyAppWidgetset\rpcPolicyManifest\manifest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\74AC4EA37EE5340A1572DC5AD25DBA27.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\7D61211544CAA6067611FE9DD2842785.cache.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\8581E5337BF636CA3FEDFFE056828C01.cache.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\A4F04212CD7F33DE66E45CB768094232.cache.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\CDE2AA2E2ED71DC1128A39DE2CB694E6.cache.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\clear.cache.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\com.fenrir.MyAppWidgetset.devmode.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\com.fenrir.MyAppWidgetset.nocache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\compilation-mappings.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\1.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\2.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\3.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\4.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\5.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\6.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\7.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\8.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\VAADIN\widgetsets\com.fenrir.MyAppWidgetset\deferredjs\74AC4EA37EE5340A1572DC5AD25DBA27\9.cache.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\MainView.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\MyAppWidgetset.gwt.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\MyUI$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\MyUI$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\MyUI$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\MyUI$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\MyUI$MyUIServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\MyUI.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\classes\com\fenrir\ProfileView.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1106669667898170422tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1132607754334591412tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1158928791906506058tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1290427176005622584tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1334109762069815501tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1453174474598134969tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1474916292445008189tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1595797291149222973tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1637836557469402790tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire165786080656835397tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1688943025883203421tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1838733067521830357tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire1876026913292579748tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire2104216526724499623tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire2128969172687129380tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire2200316030285883136tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire2961617393322954431tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire2967697020614516582tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire3306426219370508778tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire3380430872168123399tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire3404874235829467366tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire3509754586207014167tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire3667254988244165463tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire3888361442879469872tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire4232603516886625874tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire4347777413459080559tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire4457471722054504738tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire4493520791096266761tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire4531279281669435003tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire453775645164694880tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire4712746531770096942tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5025181779372255753tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5092342295291783622tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5149649886118051462tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5314200240198747640tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5519492096653804022tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5639612897637324854tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5662077696405350388tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5670866313946822565tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire570772342308509015tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire5769067633888537279tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6076293878202431588tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6120899399045479635tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6242580100852716767tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6300073593461420565tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6391349024130771540tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire640626228128163515tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6429578955346637891tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6434494575524972444tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6522121825434653248tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6562212826479884566tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6649073005186850673tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire6717971932898513437tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire687011609121277565tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire7068727999298956375tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire7113804128432114051tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire7182099138387934855tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire7303189596730921017tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire7423115674825226262tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire7433713141691673656tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire7758093839169740613tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire7940244655886707544tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire8007656397348624937tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire8105812320852738951tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire8199326713775961551tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire8326883899853229532tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire843377607083568940tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire8462202833977414635tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire8464329024275386107tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire8510570164176112049tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire871742334952126118tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire8820822661175527599tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire891083634456399655tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire9017635233333418772tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire9035052918723204440tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire9054506075316969757tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire9155674594383102375tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire9168466909226786883tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire9189317922062041484tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefire950939965398196981tmp" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter1221045213776249492.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter1256790556937163809.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter1273319662965234577.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter1633654601209237241.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter16359952063674560.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter1784978920399154126.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter2131243811043522102.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter2510575805071468856.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter2560617460786445473.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter2562096179039097647.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter2604054544942570690.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter2706376004543359038.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter2769723503576712789.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter2942334961413423562.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter3043978561860645797.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter3370657893529948361.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter3773783047694551169.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter4013879390068968804.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter4062358415473129723.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter4126045127446069242.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter4370640618339559098.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter4432104952949806388.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter4483264738385139541.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter4582009781483117169.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter4610776556043491335.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter465111643918283011.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter5745952484357544175.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter5810668178916285907.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter6045263114983482186.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter6049512304644073347.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter6075495071639159795.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter6258612146135197722.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter6328899525722082263.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter6464715790029788102.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter6891879389354954035.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter7184259773796389262.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter7425998846416470074.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter7910592821973235837.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter8797747176582559437.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\school\fenrir\fenrir-example-app\target\surefire\surefirebooter9071684779244965967.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LoginApp.iws" />
@@ -33,8 +278,8 @@
       <file leaf-file-name="MyUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85360605">
-              <caret line="96" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.38428417">
+              <caret line="126" column="66" selection-start-line="126" selection-start-column="66" selection-end-line="126" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,9 +382,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,6 +502,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,7 +746,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -512,6 +756,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31347963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -540,6 +785,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="95" selection-start-line="37" selection-start-column="95" selection-end-line="37" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -551,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,13 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/fenrir/MainView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087030716">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -733,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,10 +1026,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/fenrir/MyAppWidgetset.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85360605">
-          <caret line="96" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.38428417">
+          <caret line="126" column="66" selection-start-line="126" selection-start-column="66" selection-end-line="126" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
