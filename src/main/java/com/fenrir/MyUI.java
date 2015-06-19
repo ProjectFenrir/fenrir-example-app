@@ -2,7 +2,7 @@ package com.fenrir;
 
 import javax.servlet.annotation.WebServlet;
 
-import com.fenrir.util.logger.LoginLogger;
+import com.fenrir.util.logger.UserLogger;
 import com.vaadin.annotations.DesignRoot;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
@@ -27,7 +27,7 @@ public class MyUI extends UI {
 
     Navigator navigator;
     User user;
-    LoginLogger log = null;
+    UserLogger log = null;
 
     protected static final String LOGINVIEW = "login";
     protected static final String MAINVIEW = "main";
@@ -37,7 +37,7 @@ public class MyUI extends UI {
         getPage().setTitle("FENRIR login");
 
 //        Create loggin session
-        log = new LoginLogger();
+        log = new UserLogger();
 
         navigator = new Navigator(this, this);
 //        Register views
@@ -74,10 +74,10 @@ public class MyUI extends UI {
                             tfPassword.setValue(user.getPassword());
 //                            If state (=2); grant access
                             if (user.getState() == 2) {
-                                log.logUser(tfUsername.getValue(), true);
+                                log.logVerification(tfUsername.getValue(), true);
                                 navigator.navigateTo(MAINVIEW);
                             } else {
-                                log.logUser(tfUsername.getValue(), false);
+                                log.logVerification(tfUsername.getValue(), false);
                                 Notification.show("Incorrect credentials");
                             }
                         }
@@ -137,6 +137,7 @@ public class MyUI extends UI {
 
             public ProfileView(String item) {
                 Design.read(this);
+                log.logAction(item);
                 watching.setValue("Viewing page: " + item);
             }
         }
@@ -144,8 +145,10 @@ public class MyUI extends UI {
         @Override
         public void enter(ViewChangeListener.ViewChangeEvent event) {
 //            If no user session is found; redirect to login
-            if (user == null)
+            if (user == null) {
+                log.logUnauthorizedVisit();
                 navigator.navigateTo(LOGINVIEW);
+            }
 
             if (user != null) {
 //            If user session is found, but not authorised; redirect to login

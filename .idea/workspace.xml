@@ -2,291 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2799eba3-932e-475a-a838-9ad5538fc4d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/8581E5337BF636CA3FEDFFE056828C01.cache.woff" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/8581E5337BF636CA3FEDFFE056828C01.cache.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/8581E5337BF636CA3FEDFFE056828C01.cache.woff" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/8581E5337BF636CA3FEDFFE056828C01.cache.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/A4F04212CD7F33DE66E45CB768094232.cache.ttf" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/A4F04212CD7F33DE66E45CB768094232.cache.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/A4F04212CD7F33DE66E45CB768094232.cache.ttf" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/A4F04212CD7F33DE66E45CB768094232.cache.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/CDE2AA2E2ED71DC1128A39DE2CB694E6.cache.eot" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/CDE2AA2E2ED71DC1128A39DE2CB694E6.cache.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/CDE2AA2E2ED71DC1128A39DE2CB694E6.cache.eot" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/CDE2AA2E2ED71DC1128A39DE2CB694E6.cache.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$1.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$1.class" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$2.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$2.class" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$3.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$3.class" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$4.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$4.class" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$AuthenticateView.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$AuthenticateView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$LoginView$1.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$LoginView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$LoginView.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$LoginView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$MainView$1.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$MainView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$MainView.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$MainView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$MyUIServlet.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI$MyUIServlet.class" />
+      <change type="MOVED" beforePath="C:\dev\school\fenrir\fenrir-example-app\src\main\java\com\fenrir\util\logger\LoginLogger.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$MyUIServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI$MyUIServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI.class" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyUI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI.class" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/atmosphere-runtime-2.2.4.vaadin5.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/atmosphere-runtime-2.2.4.vaadin5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/clear.cache.gif" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/clear.cache.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/clear.cache.gif" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/clear.cache.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/favicon.ico" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/favicon.ico" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/flute-1.3.0.gg2.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/flute-1.3.0.gg2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/guava-16.0.1.vaadin1.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/guava-16.0.1.vaadin1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E0481" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E0481" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E0481" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E0481" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FCE" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FCE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FCE" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FCE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD1" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD1" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD4" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD4" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E2FD4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E307D" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E307D" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E307D" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E307D" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3134" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3134" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3134" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3134" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E31B8" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E31B8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E31B8" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E31B8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3216" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3216" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3216" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3216" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3CDA" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3CDA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3CDA" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3CDA" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3D75" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3D75" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3D75" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3D75" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3F36" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3F36" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3F36" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E3F36" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E403B" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E403B" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E403B" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E403B" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4127" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4127" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4127" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4127" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4130" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4130" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4130" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4130" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/jsoup-1.8.1.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/jsoup-1.8.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/sac-1.3.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/sac-1.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/streamhtmlparser-jsilver-0.0.10.vaadin1.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/streamhtmlparser-jsilver-0.0.10.vaadin1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1221045213776249492.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter1221045213776249492.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1256790556937163809.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter1256790556937163809.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1273319662965234577.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter1273319662965234577.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1633654601209237241.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter1633654601209237241.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter16359952063674560.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter16359952063674560.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1784978920399154126.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter1784978920399154126.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2131243811043522102.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter2131243811043522102.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2510575805071468856.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter2510575805071468856.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2560617460786445473.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter2560617460786445473.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2562096179039097647.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter2562096179039097647.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2604054544942570690.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter2604054544942570690.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2706376004543359038.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter2706376004543359038.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2769723503576712789.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter2769723503576712789.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2942334961413423562.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter2942334961413423562.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3043978561860645797.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter3043978561860645797.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3370657893529948361.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter3370657893529948361.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3773783047694551169.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter3773783047694551169.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4013879390068968804.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter4013879390068968804.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4062358415473129723.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter4062358415473129723.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4126045127446069242.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter4126045127446069242.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4370640618339559098.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter4370640618339559098.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4432104952949806388.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter4432104952949806388.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4483264738385139541.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter4483264738385139541.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4582009781483117169.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter4582009781483117169.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4610776556043491335.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter4610776556043491335.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter465111643918283011.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter465111643918283011.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5745952484357544175.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter5745952484357544175.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5810668178916285907.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter5810668178916285907.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6045263114983482186.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter6045263114983482186.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6049512304644073347.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter6049512304644073347.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6075495071639159795.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter6075495071639159795.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6258612146135197722.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter6258612146135197722.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6328899525722082263.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter6328899525722082263.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6464715790029788102.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter6464715790029788102.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6891879389354954035.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter6891879389354954035.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7184259773796389262.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter7184259773796389262.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7425998846416470074.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter7425998846416470074.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7910592821973235837.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter7910592821973235837.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8797747176582559437.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter8797747176582559437.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter9071684779244965967.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter9071684779244965967.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-push-7.4.6.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-push-7.4.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-sass-compiler-0.9.12.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-sass-compiler-0.9.12.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-server-7.4.6.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-server-7.4.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-shared-7.4.6.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-shared-7.4.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-slf4j-jdk14-1.6.1.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-slf4j-jdk14-1.6.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-themes-7.4.6.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/vaadin-themes-7.4.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/1.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/1.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/1.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/1.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/2.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/2.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/2.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/2.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/3.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/3.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/3.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/3.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/4.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/4.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/4.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/4.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/5.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/5.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/5.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/5.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/6.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/6.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/6.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/6.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/7.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/7.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/7.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/7.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/74AC4EA37EE5340A1572DC5AD25DBA27.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/74AC4EA37EE5340A1572DC5AD25DBA27.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/74AC4EA37EE5340A1572DC5AD25DBA27.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/74AC4EA37EE5340A1572DC5AD25DBA27.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/7D61211544CAA6067611FE9DD2842785.cache.svg" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/7D61211544CAA6067611FE9DD2842785.cache.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/7D61211544CAA6067611FE9DD2842785.cache.svg" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/7D61211544CAA6067611FE9DD2842785.cache.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/8.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/8.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/8.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/8.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/9.cache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/9.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/9.cache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/deferredjs/74AC4EA37EE5340A1572DC5AD25DBA27/9.cache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_DraggableTemplateImpl.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_DraggableTemplateImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_TemplateImpl.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_TemplateImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/metadata/ConnectorBundleLoaderImpl.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/metadata/ConnectorBundleLoaderImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/CurrencyList_.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/CurrencyList_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/debug/internal/theme/DebugWindowStyles_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/debug/internal/theme/DebugWindowStyles_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/DocumentModeAsserter_DocumentModeProperty.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/DocumentModeAsserter_DocumentModeProperty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_shared.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_shared.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LoginApp.iml" afterPath="$PROJECT_DIR$/LoginApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/fenrir/MainView.html" afterPath="$PROJECT_DIR$/src/main/resources/com/fenrir/MainView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_atmosphere_atmosphere_runtime_2_2_4_vaadin5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_atmosphere_atmosphere_runtime_2_2_4_vaadin5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_flute_flute_1_3_0_gg2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_flute_flute_1_3_0_gg2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_guava_16_0_1_vaadin1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_guava_16_0_1_vaadin1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_slf4j_vaadin_slf4j_jdk14_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_slf4j_vaadin_slf4j_jdk14_1_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_streamhtmlparser_streamhtmlparser_jsilver_0_0_10_vaadin1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_streamhtmlparser_streamhtmlparser_jsilver_0_0_10_vaadin1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_client_7_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_client_7_4_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_push_7_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_push_7_4_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_sass_compiler_0_9_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_sass_compiler_0_9_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_server_7_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_server_7_4_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_shared_7_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_shared_7_4_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_themes_7_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_themes_7_4_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_sources_1_0_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_sources_1_0_0_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/MenuBar_Resources_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/MenuBar_Resources_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/fenrir/MyAppWidgetset.gwt.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/fenrir/MyAppWidgetset.gwt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyAppWidgetset.gwt.xml" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/com/fenrir/MyAppWidgetset.gwt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/MyAppWidgetset.gwt.xml" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/MyAppWidgetset.gwt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fenrir/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplGecko1_8.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplGecko1_8.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe10.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe10.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe8.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe8.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe9.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe9.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplSafari.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplSafari.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/dd/VAcceptCriterionFactoryImpl.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/dd/VAcceptCriterionFactoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Images_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Images_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Strings_.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Strings_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/impl/WindowImplIE_Resources_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/impl/WindowImplIE_Resources_default_InlineClientBundleGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/addons.scss" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/addons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/addons.scss" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/addons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/com.fenrir.MyAppWidgetset.devmode.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/com.fenrir.MyAppWidgetset.devmode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/com.fenrir.MyAppWidgetset.devmode.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/com.fenrir.MyAppWidgetset.devmode.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/com.fenrir.MyAppWidgetset.nocache.js" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/com.fenrir.MyAppWidgetset.nocache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/com.fenrir.MyAppWidgetset.nocache.js" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/com.fenrir.MyAppWidgetset.nocache.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/lang/com_00046fenrir_00046MyAppWidgetset__EntryMethodHolder.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/lang/com_00046fenrir_00046MyAppWidgetset__EntryMethodHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/compilation-mappings.txt" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/compilation-mappings.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/compilation-mappings.txt" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/compilation-mappings.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/WEB-INF/deploy/com.fenrir.MyAppWidgetset/rpcPolicyManifest/manifest.txt" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/WEB-INF/deploy/com.fenrir.MyAppWidgetset/rpcPolicyManifest/manifest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/WEB-INF/deploy/com.fenrir.MyAppWidgetset/rpcPolicyManifest/manifest.txt" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/WEB-INF/deploy/com.fenrir.MyAppWidgetset/rpcPolicyManifest/manifest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/mytheme.scss" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/mytheme.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss.cache" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/styles.scss.cache" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/styles.scss.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/styles.scss" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/VAADIN/themes/mytheme/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1106669667898170422tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1106669667898170422tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1132607754334591412tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1132607754334591412tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1158928791906506058tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1158928791906506058tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1290427176005622584tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1290427176005622584tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1334109762069815501tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1334109762069815501tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1453174474598134969tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1453174474598134969tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1474916292445008189tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1474916292445008189tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1595797291149222973tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1595797291149222973tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1637836557469402790tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1637836557469402790tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire165786080656835397tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire165786080656835397tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1688943025883203421tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1688943025883203421tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1838733067521830357tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1838733067521830357tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire1876026913292579748tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire1876026913292579748tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire2104216526724499623tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire2104216526724499623tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire2128969172687129380tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire2128969172687129380tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire2200316030285883136tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire2200316030285883136tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire2961617393322954431tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire2961617393322954431tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire2967697020614516582tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire2967697020614516582tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire3306426219370508778tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire3306426219370508778tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire3380430872168123399tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire3380430872168123399tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire3404874235829467366tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire3404874235829467366tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire3509754586207014167tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire3509754586207014167tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire3667254988244165463tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire3667254988244165463tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire3888361442879469872tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire3888361442879469872tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire4232603516886625874tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire4232603516886625874tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire4347777413459080559tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire4347777413459080559tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire4457471722054504738tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire4457471722054504738tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire4493520791096266761tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire4493520791096266761tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire4531279281669435003tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire4531279281669435003tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire453775645164694880tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire453775645164694880tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire4712746531770096942tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire4712746531770096942tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5025181779372255753tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5025181779372255753tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5092342295291783622tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5092342295291783622tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5149649886118051462tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5149649886118051462tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5314200240198747640tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5314200240198747640tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5519492096653804022tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5519492096653804022tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5639612897637324854tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5639612897637324854tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5662077696405350388tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5662077696405350388tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5670866313946822565tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5670866313946822565tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire570772342308509015tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire570772342308509015tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire5769067633888537279tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire5769067633888537279tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6076293878202431588tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6076293878202431588tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6120899399045479635tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6120899399045479635tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6242580100852716767tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6242580100852716767tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6300073593461420565tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6300073593461420565tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6391349024130771540tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6391349024130771540tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire640626228128163515tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire640626228128163515tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6429578955346637891tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6429578955346637891tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6434494575524972444tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6434494575524972444tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6522121825434653248tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6522121825434653248tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6562212826479884566tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6562212826479884566tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6649073005186850673tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6649073005186850673tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire6717971932898513437tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire6717971932898513437tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire687011609121277565tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire687011609121277565tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire7068727999298956375tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire7068727999298956375tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire7113804128432114051tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire7113804128432114051tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire7182099138387934855tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire7182099138387934855tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire7303189596730921017tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire7303189596730921017tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire7423115674825226262tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire7423115674825226262tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire7433713141691673656tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire7433713141691673656tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire7758093839169740613tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire7758093839169740613tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire7940244655886707544tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire7940244655886707544tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire8007656397348624937tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire8007656397348624937tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire8105812320852738951tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire8105812320852738951tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire8199326713775961551tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire8199326713775961551tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire8326883899853229532tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire8326883899853229532tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire843377607083568940tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire843377607083568940tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire8462202833977414635tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire8462202833977414635tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire8464329024275386107tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire8464329024275386107tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire8510570164176112049tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire8510570164176112049tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire871742334952126118tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire871742334952126118tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire8820822661175527599tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire8820822661175527599tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire891083634456399655tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire891083634456399655tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire9017635233333418772tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire9017635233333418772tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire9035052918723204440tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire9035052918723204440tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire9054506075316969757tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire9054506075316969757tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire9155674594383102375tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire9155674594383102375tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire9168466909226786883tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire9168466909226786883tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire9189317922062041484tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire9189317922062041484tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefire950939965398196981tmp" afterPath="$PROJECT_DIR$/target/surefire/surefire950939965398196981tmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LoginApp.iws" />
@@ -309,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyUI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.85360605">
+              <caret line="96" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -321,14 +42,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginLogger.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/LoginLogger.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6121113">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="95" selection-start-line="37" selection-start-column="95" selection-end-line="37" selection-end-column="95" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -360,8 +91,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/DBConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/LoginLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/HtmlFormatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/LoginLogger.java" />
         <option value="$PROJECT_DIR$/loginLogger.log" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/LoginLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java" />
       </list>
     </option>
@@ -377,9 +109,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -404,6 +137,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -524,9 +260,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,6 +269,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="line nu&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -754,8 +488,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -764,21 +498,21 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31364125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2595339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31347963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -806,17 +540,53 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/DBConnect.java">
+    <entry file="file://$PROJECT_DIR$/loginLogger.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -851,16 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -875,16 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -971,41 +721,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5133531">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,15 +740,33 @@
     <entry file="file://$PROJECT_DIR$/loginLogger.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/LoginLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6121113">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="95" selection-start-line="37" selection-start-column="95" selection-end-line="37" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85360605">
+          <caret line="96" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
