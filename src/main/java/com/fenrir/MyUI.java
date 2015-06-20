@@ -17,7 +17,6 @@ import com.vaadin.ui.*;
 import com.vaadin.ui.declarative.Design;
 
 import java.io.IOException;
-import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.sql.SQLException;
 
@@ -92,7 +91,7 @@ public class MyUI extends UI {
                                     token = random.nextInt(99999 - 10000 + 1) + 10000;
 
 //                                    Verify user credentials
-                                    user = new User(clientId, tfUsername.getValue(), tfPassword.getValue(), tfCompany.getValue(), clientEmail);
+                                    user = new User(clientId, tfUsername.getValue(), tfCompany.getValue());
                                     user.verify();
                                     tfPassword.setValue(user.getPassword());
 //                                    If state (=2); grant access

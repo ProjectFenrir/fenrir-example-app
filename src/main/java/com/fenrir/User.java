@@ -16,7 +16,7 @@ import java.sql.* ;
  * Created by lars on 5/31/2015.
  */
 public class User {
-    DBConnect db = null;
+    DBConnect db;
 
     private int state;
     private int id;
@@ -27,16 +27,16 @@ public class User {
     private String clientHashPassword;
     private String clientPassword;
 
-    public User(int id, String username, String password, String company, String email) {
+    public User(int id, String username, String company) throws SQLException {
+        db = new DBConnect();
         this.id = id;
         this.username = username;
-        this.password = password;
+        this.password = db.getPassword(id);
         this.company = company;
-        this.email = email;
+        this.email = db.getEmail(id);
     }
 
     public void verify() {
-        db = new DBConnect();
         try {
             db.connect();
         } catch (SQLException e) {
