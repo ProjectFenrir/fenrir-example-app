@@ -52,6 +52,7 @@ public class MyUI extends UI {
         navigator.addView(LOGINVIEW, new LoginView());
         navigator.addView(VERIFICATIONVIEW, new VerificationView());
         navigator.addView(MAINVIEW, new MainView());
+        navigator.navigateTo(LOGINVIEW);
     }
 
     public class LoginView extends VerticalLayout implements View {
@@ -107,9 +108,11 @@ public class MyUI extends UI {
                                         Notification.show("Incorrect credentials");
                                     }
                                     db.conn.close();
-                                tfCompany.setValue("Company");
-                                tfUsername.setValue("Username");
-                                tfPassword.setValue("Password");
+
+//                                    Set field values to default, forget user input
+                                    tfCompany.setValue("Company");
+                                    tfUsername.setValue("Username");
+                                    tfPassword.setValue("Password");
                                 } else {
                                     log.getInstance().logVerification("@unknownuser@", false);
                                     Notification.show("Unknown user");
@@ -149,6 +152,7 @@ public class MyUI extends UI {
                         @Override
                         public void buttonClick(Button.ClickEvent event) {
                             if (tfToken.getValue().equals(token.toString())) {
+                                user.setState(3);
                                 navigator.navigateTo(MAINVIEW);
                             } else {
                                 tfToken.setValue("token");
@@ -166,7 +170,19 @@ public class MyUI extends UI {
 
         @Override
         public void enter(ViewChangeListener.ViewChangeEvent event) {
-            Notification.show("Requesting token");
+//            If no user session is found; redirect to login
+            if (user == null) {
+                log.getInstance().logUnauthorizedVisit();
+                navigator.navigateTo(LOGINVIEW);
+            }
+
+            if (user != null) {
+//            If user session is found, but not authorised; redirect to login
+                if (user.getState() != 2)
+                    navigator.navigateTo(LOGINVIEW);
+            } else {
+                Notification.show("Requesting token");
+            }
         }
     }
 
@@ -226,7 +242,7 @@ public class MyUI extends UI {
 
             if (user != null) {
 //            If user session is found, but not authorised; redirect to login
-                if (user.getState() != 2) {
+                if (user.getState() != 3) {
                     navigator.navigateTo(LOGINVIEW);
 //            If authorised; grant access and redirect to main
                 } else {

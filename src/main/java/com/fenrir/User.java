@@ -20,7 +20,7 @@ import java.sql.* ;
 public class User {
     DBConnect db;
 
-    private int state;
+    private int state = 1;
     private int id;
     private String username;
     private String password;
@@ -104,6 +104,11 @@ public class User {
     protected String getPassword() { return password; }
     protected String getEmail() { return email; }
     protected void setState(int state) {
+        /*
+        state 1 = unauthorized
+        state 2 = verify
+        state 3 = authorized
+        */
         this.state = state;
     }
     protected int getState() { return state; }
