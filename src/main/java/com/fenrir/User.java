@@ -50,7 +50,7 @@ public class User {
             e.printStackTrace();
         }
 
-        if (clientDatabasePassword.equals(clientPlainPassword)) {
+        if (clientDatabasePassword.equals(password)) {
 //            Create connection to the (json) url
             String jUrl = "http://188.166.123.191:8080/FenrirService/login?username=" + username + "&company=" + company;
             URL url = null;

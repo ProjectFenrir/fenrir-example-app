@@ -8,11 +8,19 @@ import java.util.logging.*;
  */
 public class UserLogger {
 
-    private final static Logger LOGGER = Logger.getLogger(UserLogger.class.getName());
+    private static UserLogger instance;
+    private static Logger LOGGER = Logger.getLogger(UserLogger.class.getName());
     private static FileHandler fh = null;
     private static XMLFormatter formatXml;
 
     private static String username;
+
+    public static synchronized UserLogger getInstance() {
+        if (instance == null)
+            instance = new UserLogger();
+
+        return instance;
+    }
 
     public static void init() throws IOException {
         try {

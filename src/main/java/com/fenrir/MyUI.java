@@ -45,7 +45,7 @@ public class MyUI extends UI {
         getPage().setTitle("FENRIR login");
 
 //        Create loggin session
-        log = new UserLogger();
+        log.getInstance();
 
         navigator = new Navigator(this, this);
 //        Register views
@@ -73,7 +73,7 @@ public class MyUI extends UI {
                         @Override
                         public void buttonClick(Button.ClickEvent event) {
                             try {
-                                log.init();
+                                log.getInstance().init();
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -93,14 +93,17 @@ public class MyUI extends UI {
                                     user = new User(clientId, tfPassword.getValue(), db);
                                     user.verify();
                                     tfPassword.setValue(user.getPassword());
+                                    System.out.println(tfPassword.getValue()+ "\n" +
+                                            tfUsername.getValue() + "\n" +
+                                            tfCompany.getValue());
 //                                    If state (=2); grant access
                                     if (user.getState() == 2) {
-                                        log.logVerification(tfUsername.getValue(), true);
+                                        log.getInstance().logVerification(tfUsername.getValue(), true);
                                         SendVerificationEmail mail = new SendVerificationEmail();
                                         mail.sendEmail(user.getUsername(), user.getEmail(), token);
                                         navigator.navigateTo(VERIFICATIONVIEW);
                                     } else {
-                                        log.logVerification(tfUsername.getValue(), false);
+                                        log.getInstance().logVerification(tfUsername.getValue(), false);
                                         Notification.show("Incorrect credentials");
                                     }
                                     db.conn.close();
@@ -108,7 +111,7 @@ public class MyUI extends UI {
                                 tfUsername.setValue("Username");
                                 tfPassword.setValue("Password");
                                 } else {
-                                    log.logVerification("@unknownuser@", false);
+                                    log.getInstance().logVerification("@unknownuser@", false);
                                     Notification.show("Unknown user");
                                 }
                             } catch (SQLException e) {
@@ -208,7 +211,7 @@ public class MyUI extends UI {
 
             public ProfileView(String item) {
                 Design.read(this);
-                log.logAction(item);
+                log.getInstance().logAction(item);
                 watching.setValue("Viewing page: " + item);
             }
         }
@@ -217,7 +220,7 @@ public class MyUI extends UI {
         public void enter(ViewChangeListener.ViewChangeEvent event) {
 //            If no user session is found; redirect to login
             if (user == null) {
-                log.logUnauthorizedVisit();
+                log.getInstance().logUnauthorizedVisit();
                 navigator.navigateTo(LOGINVIEW);
             }
 
