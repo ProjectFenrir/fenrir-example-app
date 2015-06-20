@@ -1,7 +1,5 @@
 package com.fenrir;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.sql.Connection;
 import java.sql.*;
 
@@ -15,7 +13,7 @@ public class DBConnect {
 //    String password = "1ExmAzjorjUZRoW3AMHA";
     String password = "";
 
-    Connection conn = null;
+    Connection conn;
     Statement stmt = null;
     ResultSet rs = null;
 
@@ -43,61 +41,14 @@ public class DBConnect {
         return clientId;
     }
 
-    protected String getPassword(int clientId) throws SQLException {
-        String clientHashPassword = "";
+    protected String getValueFromQuery(int clientId, String clientValue) throws SQLException {
         stmt = conn.createStatement();
-        rs = stmt.executeQuery("SELECT password FROM users WHERE id LIKE '" + clientId + "'");
+        rs = stmt.executeQuery("SELECT " + clientValue + " FROM users WHERE id LIKE '" + clientId + "'");
         rs = stmt.getResultSet();
         while (rs.next())
-            clientHashPassword = rs.getString(1);
+            clientValue = rs.getString(1);
         stmt.close();
 
-        return clientHashPassword;
-    }
-
-    protected String getSalt(int clientId) throws SQLException {
-        String clientSalt = "";
-        stmt = conn.createStatement();
-        rs = stmt.executeQuery("SELECT salt FROM users WHERE id LIKE '" + clientId + "'");
-        rs = stmt.getResultSet();
-        while (rs.next())
-            clientSalt = rs.getString(1);
-        stmt.close();
-
-        return clientSalt;
-    }
-
-    protected String getHashPassword(int clientId, String clientPassword) throws SQLException {
-        String clientSalt = getSalt(clientId);
-        String clientHashPassword = clientPassword + clientSalt;
-
-        MessageDigest md = null;
-        try {
-            md = MessageDigest.getInstance("SHA-512");
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
-        md.update(clientHashPassword.getBytes());
-
-        byte byteData[] = md.digest();
-
-        StringBuffer sb = new StringBuffer();
-        for (int i = 0; i < byteData.length; i++)
-            sb.append(Integer.toString((byteData[i] & 0xff) + 0x100, 16).substring(1));
-        clientHashPassword = sb.toString();
-
-        return clientHashPassword;
-    }
-
-    protected String getEmail(int clientId) throws SQLException {
-        String clientEmail = "";
-        stmt = conn.createStatement();
-        rs = stmt.executeQuery("SELECT email FROM users WHERE id LIKE '" + clientId + "'");
-        rs = stmt.getResultSet();
-        while (rs.next())
-            clientEmail = rs.getString(1);
-        stmt.close();
-
-        return clientEmail;
+        return clientValue;
     }
 }

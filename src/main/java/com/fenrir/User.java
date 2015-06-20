@@ -10,6 +10,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.sql.* ;
 
 /**
@@ -24,37 +26,31 @@ public class User {
     private String password;
     private String email;
     private String company;
-    private String clientHashPassword;
-    private String clientPassword;
+    private String clientDatabasePassword;
+    private String clientPlainPassword;
 
-    public User(int id, String username, String company) throws SQLException {
-        db = new DBConnect();
+    public User(int id, String password, DBConnect db) throws SQLException {
+        this.db = db;
         this.id = id;
-        this.username = username;
-        this.password = db.getPassword(id);
-        this.company = company;
-        this.email = db.getEmail(id);
+        this.username = db.getValueFromQuery(id, "username");
+        this.clientPlainPassword = password;
+        this.company = db.getValueFromQuery(id, "company");
+        this.email = db.getValueFromQuery(id, "email");
     }
 
     public void verify() {
         try {
-            db.connect();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            clientHashPassword = db.getPassword(id);
+            clientDatabasePassword = db.getValueFromQuery(id, "password");
         } catch (SQLException e) {
             e.printStackTrace();
         }
         try {
-            clientPassword = db.getHashPassword(id, password);
+            password = calculateHash(id, clientPlainPassword);
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
-        if (clientHashPassword.equals(clientPassword)) {
+        if (clientDatabasePassword.equals(clientPlainPassword)) {
 //            Create connection to the (json) url
             String jUrl = "http://188.166.123.191:8080/FenrirService/login?username=" + username + "&company=" + company;
             URL url = null;
@@ -80,10 +76,32 @@ public class User {
         }
     }
 
+    protected String calculateHash(int clientId, String clientPassword) throws SQLException {
+        String clientSalt = db.getValueFromQuery(clientId, "salt");
+        String clientHashPassword = clientPassword + clientSalt;
+
+        MessageDigest md = null;
+        try {
+            md = MessageDigest.getInstance("SHA-512");
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        md.update(clientHashPassword.getBytes());
+
+        byte byteData[] = md.digest();
+
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < byteData.length; i++)
+            sb.append(Integer.toString((byteData[i] & 0xff) + 0x100, 16).substring(1));
+        clientHashPassword = sb.toString();
+
+        return clientHashPassword;
+    }
+
     protected String getUsername() {
         return username;
     }
-    protected String getPassword() { return clientPassword; }
+    protected String getPassword() { return password; }
     protected String getEmail() { return email; }
     protected void setState(int state) {
         this.state = state;

@@ -81,17 +81,16 @@ public class MyUI extends UI {
 //                            Get user id & email
                             db = new DBConnect();
                             int clientId = 0;
-                            String clientEmail = "";
                             try {
                                 db.connect();
                                 clientId = db.getClientId(tfUsername.getValue(), tfCompany.getValue());
                                 if (clientId != 0) {
-                                    clientEmail = db.getEmail(clientId);
+//                                    Generate 5 numeric length token
                                     random = new SecureRandom();
                                     token = random.nextInt(99999 - 10000 + 1) + 10000;
 
 //                                    Verify user credentials
-                                    user = new User(clientId, tfUsername.getValue(), tfCompany.getValue());
+                                    user = new User(clientId, tfPassword.getValue(), db);
                                     user.verify();
                                     tfPassword.setValue(user.getPassword());
 //                                    If state (=2); grant access
@@ -101,15 +100,16 @@ public class MyUI extends UI {
                                         mail.sendEmail(user.getUsername(), user.getEmail(), token);
                                         navigator.navigateTo(VERIFICATIONVIEW);
                                     } else {
-                                        log.logVerification("@unknownuser@", false);
-                                        Notification.show("Unknown user");
+                                        log.logVerification(tfUsername.getValue(), false);
+                                        Notification.show("Incorrect credentials");
                                     }
+                                    db.conn.close();
                                 tfCompany.setValue("Company");
                                 tfUsername.setValue("Username");
                                 tfPassword.setValue("Password");
                                 } else {
-                                    log.logVerification(tfUsername.getValue(), false);
-                                    Notification.show("Incorrect credentials");
+                                    log.logVerification("@unknownuser@", false);
+                                    Notification.show("Unknown user");
                                 }
                             } catch (SQLException e) {
                                 e.printStackTrace();
