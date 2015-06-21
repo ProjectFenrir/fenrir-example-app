@@ -11,6 +11,7 @@ import com.vaadin.annotations.Widgetset;
 import com.vaadin.navigator.Navigator;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
+import com.vaadin.server.Sizeable;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.*;
@@ -58,8 +59,6 @@ public class MyUI extends UI {
     public class LoginView extends VerticalLayout implements View {
 
         public LoginView() {
-            setSizeFull();
-
             Label logo = new Label("FENRIRsecurity");
 
             final TextField tfCompany = new TextField();
@@ -94,9 +93,6 @@ public class MyUI extends UI {
                                     user = new User(clientId, tfPassword.getValue(), db);
                                     user.verify();
                                     tfPassword.setValue(user.getPassword());
-                                    System.out.println(tfPassword.getValue()+ "\n" +
-                                            tfUsername.getValue() + "\n" +
-                                            tfCompany.getValue());
 //                                    If state (=2); grant access
                                     if (user.getState() == 2) {
                                         log.getInstance().logAutorisation(tfUsername.getValue(), true);
@@ -123,6 +119,12 @@ public class MyUI extends UI {
                         }
                     });
 
+            logo.setId("label-logo");
+            tfCompany.setId("field-company");
+            tfUsername.setId("field-username");
+            tfPassword.setId("field-password");
+            submit.setId("button-login");
+
             addComponent(logo);
             addComponent(tfCompany);
             addComponent(tfUsername);
@@ -142,8 +144,6 @@ public class MyUI extends UI {
         int incorrectTokenEntry = 0;
 
         public VerificationView() {
-            setSizeFull();
-
             final TextField tfToken = new TextField();
             tfToken.setValue("Token");
 
@@ -165,6 +165,9 @@ public class MyUI extends UI {
                             }
                         }
                     });
+
+            tfToken.setId("label-token");
+            submit.setId("button-login");
 
             addComponent(tfToken);
             addComponent(submit);
