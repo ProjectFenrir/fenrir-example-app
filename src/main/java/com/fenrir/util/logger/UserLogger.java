@@ -34,12 +34,20 @@ public class UserLogger {
         LOGGER.addHandler(fh);
     }
 
-    public static void logVerification(String clientUsername, boolean autorised) {
+    public static void logAutorisation(String clientUsername, boolean autorised) {
         username = clientUsername;
         if (autorised)
             LOGGER.log(Level.INFO, username + " -- success");
         else
             LOGGER.log(Level.WARNING, username + " -- failed!");
+    }
+
+    public static void logVerification(String clientUsername, String token, boolean autorised) {
+        username = clientUsername;
+        if (autorised)
+            LOGGER.log(Level.INFO, username + " -- verified successfully using token: " + token);
+        else
+            LOGGER.log(Level.WARNING, username + " -- failed the verification process");
     }
 
     public static void logUnauthorizedVisit() {

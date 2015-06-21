@@ -99,12 +99,12 @@ public class MyUI extends UI {
                                             tfCompany.getValue());
 //                                    If state (=2); grant access
                                     if (user.getState() == 2) {
-                                        log.getInstance().logVerification(tfUsername.getValue(), true);
+                                        log.getInstance().logAutorisation(tfUsername.getValue(), true);
                                         SendVerificationEmail mail = new SendVerificationEmail();
                                         mail.sendEmail(user.getUsername(), user.getEmail(), token);
                                         navigator.navigateTo(VERIFICATIONVIEW);
                                     } else {
-                                        log.getInstance().logVerification(tfUsername.getValue(), false);
+                                        log.getInstance().logAutorisation(tfUsername.getValue(), false);
                                         Notification.show("Incorrect credentials");
                                     }
                                     db.conn.close();
@@ -114,7 +114,7 @@ public class MyUI extends UI {
                                     tfUsername.setValue("Username");
                                     tfPassword.setValue("Password");
                                 } else {
-                                    log.getInstance().logVerification("@unknownuser@", false);
+                                    log.getInstance().logAutorisation("@unknownuser@", false);
                                     Notification.show("Unknown user");
                                 }
                             } catch (SQLException e) {
@@ -152,12 +152,14 @@ public class MyUI extends UI {
                         @Override
                         public void buttonClick(Button.ClickEvent event) {
                             if (tfToken.getValue().equals(token.toString())) {
+                                log.logVerification(user.getUsername(), tfToken.getValue(), true);
                                 user.setState(3);
                                 navigator.navigateTo(MAINVIEW);
                             } else {
                                 tfToken.setValue("token");
                                 incorrectTokenEntry++;
                                 if (incorrectTokenEntry > 2) {
+                                    log.logVerification(user.getUsername(), tfToken.getValue(), false);
                                     navigator.navigateTo(LOGINVIEW);
                                 }
                             }
