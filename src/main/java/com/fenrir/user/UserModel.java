@@ -4,7 +4,6 @@ import com.fenrir.database.DatabaseConnection;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
 import java.sql.SQLException;
 
 /**
@@ -16,32 +15,20 @@ public class UserModel {
     private int state = 1;
     private int id;
     private String username;
+    private String company;
     private String email;
     private String password;
-    private String clientPlainPassword;
-    private String clientDatabasePassword;
+    private String plainPassword;
+    private String databasePassword;
 
-    public UserModel(int id, String password, DatabaseConnection db) throws SQLException {
+    public UserModel(DatabaseConnection db) {
         this.db = db;
-        this.id = id;
-        this.username = db.getValueFromQuery(id, "username");
-        this.clientPlainPassword = password;
-        this.email = db.getValueFromQuery(id, "email");
     }
 
-    public boolean passwordIsCorrect() {
-        try {
-            clientDatabasePassword = db.getValueFromQuery(id, "password");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        try {
-            password = calculateHash(id, clientPlainPassword);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+    public boolean passwordIsCorrect() throws SQLException {
+        password = calculateHash(id, plainPassword);
 
-        if (clientDatabasePassword.equals(password)) {
+        if (databasePassword.equals(password)) {
             return true;
         } else {
             return false;
@@ -64,7 +51,6 @@ public class UserModel {
 
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < byteData.length; i++) {
-            System.out.println(Integer.toString((byteData[i] & 0xff) + 0x100, 16).substring(1));
             sb.append(Integer.toString((byteData[i] & 0xff) + 0x100, 16).substring(1));
         }
         clientHashPassword = sb.toString();
@@ -72,11 +58,18 @@ public class UserModel {
         return clientHashPassword;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+    public int getId() { return id; }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
     public String getUsername() {
         return username;
     }
-    public String getPassword() { return password; }
-    public String getEmail() { return email; }
+
     public void setState(int state) {
         /*
         state 1 = unauthorized
@@ -86,4 +79,25 @@ public class UserModel {
         this.state = state;
     }
     public int getState() { return state; }
+
+    public void setPlainPassword(String plainPassword) {
+        this.plainPassword = plainPassword;
+    }
+    public String getPlainPassword() { return plainPassword; }
+
+    public void setEmail(String email) throws SQLException {
+        this.email = db.getValueFromQuery(id, email);
+    }
+    public String getEmail() { return email; }
+
+    public void setDatabasePassword(String password) throws SQLException {
+        this.databasePassword = db.getValueFromQuery(id, password);
+    }
+    public String getDatabasePassword() { return databasePassword; }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
+    public String getCompany() { return company; }
+
 }

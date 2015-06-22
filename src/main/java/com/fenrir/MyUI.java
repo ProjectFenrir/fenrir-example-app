@@ -4,7 +4,9 @@ import javax.servlet.annotation.WebServlet;
 
 import com.fenrir.database.DatabaseConnection;
 import com.fenrir.mailer.SendVerificationEmail;
+import com.fenrir.user.UserController;
 import com.fenrir.user.UserModel;
+import com.fenrir.user.UserView;
 import com.fenrir.util.logger.UserLogger;
 import com.vaadin.annotations.DesignRoot;
 import com.vaadin.annotations.Theme;
@@ -31,16 +33,24 @@ import java.sql.SQLException;
 public class MyUI extends UI {
 
     Navigator navigator;
+
+    UserController userController;
     UserModel userModel;
+    UserView userView;
+
     DatabaseConnection db = null;
     UserLogger log = null;
-    SecureRandom random;
 
+    SecureRandom random;
     Integer token;
 
     protected static final String LOGINVIEW = "login";
     protected static final String VERIFICATIONVIEW = "verification";
     protected static final String MAINVIEW = "main";
+
+    protected static final String TF_COMPANY = "Company";
+    protected static final String TF_USERNAME = "Username";
+    protected static final String TF_PASSWORD = "Password";
 
     @Override
     protected void init(VaadinRequest vaadinRequest) {
@@ -59,15 +69,17 @@ public class MyUI extends UI {
 
     public class LoginView extends VerticalLayout implements View {
 
+        private String company, username, password;
+
         public LoginView() {
             Label logo = new Label("FENRIRsecurity");
 
             final TextField tfCompany = new TextField();
-            tfCompany.setValue("Company");
+            tfCompany.setValue(TF_COMPANY);
             final TextField tfUsername = new TextField();
-            tfUsername.setValue("Username");
+            tfUsername.setValue(TF_USERNAME);
             final PasswordField tfPassword = new PasswordField();
-            tfPassword.setValue("Password");
+            tfPassword.setValue(TF_PASSWORD);
 
             Button submit = new Button("Login",
                     new Button.ClickListener() {
@@ -78,31 +90,47 @@ public class MyUI extends UI {
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
+                            company = tfCompany.getValue();
+                            username = tfUsername.getValue();
+                            password = tfPassword.getValue();
 
 //                            Get user id & email
                             db = new DatabaseConnection();
                             int clientId = 0;
                             try {
                                 db.connect();
-                                clientId = db.getClientId(tfUsername.getValue(), tfCompany.getValue());
+                                clientId = db.getClientId(username, company);
                                 if (clientId != 0) {
 //                                    Generate 5 numeric length token
                                     random = new SecureRandom();
                                     token = random.nextInt(99999 - 10000 + 1) + 10000;
 
 //                                    Verify user credentials
-                                    userModel = new UserModel(clientId, tfPassword.getValue(), db);
+//                                    userModel = new UserModel(clientId, tfPassword.getValue(), db);
+                                    userModel = createUserSession();
+                                    userView = new UserView();
+                                    userController = new UserController(userModel, userView);
+
+//                                    userController.setUserPlainPassword(password);
+                                    userController.setUserId(clientId);
+                                    userController.setUserDatabasePassword("password");
+
                                     userModel.passwordIsCorrect();
-                                    tfPassword.setValue(userModel.getPassword());
-                                    System.out.println(userModel.getPassword());
+                                    tfPassword.setValue(userController.getUserDatabasePassword());
+
 //                                    If state (=2); grant access
                                     if (userModel.passwordIsCorrect() == true) {
-                                        log.getInstance().logAutorisation(tfUsername.getValue(), true);
+                                        log.getInstance().logAutorisation(username, true);
+
                                         SendVerificationEmail mail = new SendVerificationEmail();
-                                        mail.sendEmail(userModel.getUsername(), userModel.getEmail(), token);
+
+                                        userController.setUserEmail("email");
+                                        userView.printUserDetails(userModel.getUsername(), userModel.getCompany(), userModel.getEmail());
+                                        mail.sendEmail(userController.getUserName(), userController.getUserEmail(), token);
+
                                         navigator.navigateTo(VERIFICATIONVIEW);
                                     } else {
-                                        log.getInstance().logAutorisation(tfUsername.getValue(), false);
+                                        log.getInstance().logAutorisation(username, false);
                                         Notification.show("Incorrect credentials");
                                     }
                                     db.conn.close();
@@ -134,6 +162,14 @@ public class MyUI extends UI {
             addComponent(submit);
         }
 
+        private UserModel createUserSession() throws SQLException {
+            UserModel user = new UserModel(db);
+            user.setCompany(company);
+            user.setUsername(username);
+            user.setPlainPassword(password);
+            return user;
+        }
+
         @Override
         public void enter(ViewChangeListener.ViewChangeEvent event) {
             Notification.show("FENRIR secured");
@@ -154,14 +190,14 @@ public class MyUI extends UI {
                         @Override
                         public void buttonClick(Button.ClickEvent event) {
                             if (tfToken.getValue().equals(token.toString())) {
-                                log.logVerification(userModel.getUsername(), tfToken.getValue(), true);
-                                userModel.setState(2);
+                                log.logVerification(userController.getUserName(), tfToken.getValue(), true);
+                                userController.setState(2);
                                 navigator.navigateTo(MAINVIEW);
                             } else {
                                 tfToken.setValue("token");
                                 incorrectTokenEntry++;
                                 if (incorrectTokenEntry > 2) {
-                                    log.logVerification(userModel.getUsername(), tfToken.getValue(), false);
+                                    log.logVerification(userController.getUserName(), tfToken.getValue(), false);
                                     navigator.navigateTo(LOGINVIEW);
                                 }
                             }
@@ -185,8 +221,12 @@ public class MyUI extends UI {
 
             if (userModel != null) {
 //            If user session is found, but not authorised; redirect to login
-                if (userModel.passwordIsCorrect() != true)
-                    navigator.navigateTo(LOGINVIEW);
+                try {
+                    if (userModel.passwordIsCorrect() != true)
+                        navigator.navigateTo(LOGINVIEW);
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             } else {
                 Notification.show("Requesting token");
             }
@@ -249,12 +289,12 @@ public class MyUI extends UI {
 
             if (userModel != null) {
 //            If user session is found, but not authorised; redirect to login
-                if (userModel.getState() != 2) {
+                if (userController.getState() != 2) {
                     navigator.navigateTo(LOGINVIEW);
 //            If authorised; grant access and redirect to main
                 } else {
                     if (event.getParameters() == null || event.getParameters().isEmpty()) {
-                        equalPanel.setContent(new Label("Hello, " + userModel.getUsername()));
+                        equalPanel.setContent(new Label("Hello, " + userController.getUserName()));
                         return;
                     } else
                         equalPanel.setContent(new ProfileView(event.getParameters()));

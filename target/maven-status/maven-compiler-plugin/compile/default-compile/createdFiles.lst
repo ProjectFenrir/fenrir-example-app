@@ -1,4 +1,5 @@
 com\fenrir\MyUI$MainView$ProfileView.class
+com\fenrir\user\UserView.class
 com\fenrir\user\UserModel.class
 com\fenrir\mailer\SendVerificationEmail.class
 com\fenrir\MyUI$MainView$ButtonListener.class
@@ -9,5 +10,6 @@ com\fenrir\MyUI$VerificationView$1.class
 com\fenrir\MyUI$VerificationView.class
 com\fenrir\MyUI$LoginView.class
 com\fenrir\MyUI$LoginView$1.class
+com\fenrir\user\UserController.class
 com\fenrir\mailer\SendVerificationEmail$1.class
 com\fenrir\util\logger\UserLogger.class

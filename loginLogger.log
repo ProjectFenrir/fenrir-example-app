@@ -2,13 +2,13 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2015-06-22T20:08:46</date>
-  <millis>1434996526696</millis>
+  <date>2015-06-22T22:34:46</date>
+  <millis>1435005286127</millis>
   <sequence>36</sequence>
   <logger>com.fenrir.util.logger.UserLogger</logger>
   <level>INFO</level>
   <class>com.fenrir.util.logger.UserLogger</class>
   <method>logAutorisation</method>
-  <thread>22</thread>
+  <thread>23</thread>
   <message>larsh -- success</message>
 </record>

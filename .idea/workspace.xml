@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2799eba3-932e-475a-a838-9ad5538fc4d8" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Development\fenrir\fenrir-example-app\src\main\java\com\fenrir\DBConnect.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\fenrir\fenrir-example-app\src\main\java\com\fenrir\User.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/8581E5337BF636CA3FEDFFE056828C01.cache.woff" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/8581E5337BF636CA3FEDFFE056828C01.cache.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/8581E5337BF636CA3FEDFFE056828C01.cache.woff" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/8581E5337BF636CA3FEDFFE056828C01.cache.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/A4F04212CD7F33DE66E45CB768094232.cache.ttf" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/com.fenrir.MyAppWidgetset/A4F04212CD7F33DE66E45CB768094232.cache.ttf" />
@@ -66,6 +64,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" afterPath="$PROJECT_DIR$/target/classes/VAADIN/gwt-unitCache/gwt-unitCache-be4eb2227349d9eaf4f94326cfa73f9f18e50bf3-0000014D680E4197" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/jsoup-1.8.1.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/jsoup-1.8.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginLogger.log.lck" afterPath="$PROJECT_DIR$/loginLogger.log.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/sac-1.3.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/sac-1.3.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/streamhtmlparser-jsilver-0.0.10.vaadin1.jar" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/lib/streamhtmlparser-jsilver-0.0.10.vaadin1.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1221045213776249492.jar" afterPath="$PROJECT_DIR$/target/surefire/surefirebooter1221045213776249492.jar" />
@@ -141,6 +140,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_TemplateImpl.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_TemplateImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/metadata/ConnectorBundleLoaderImpl.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/metadata/ConnectorBundleLoaderImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/CurrencyList_.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/CurrencyList_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fenrir/database/DatabaseConnection.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/database/DatabaseConnection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/debug/internal/theme/DebugWindowStyles_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/debug/internal/theme/DebugWindowStyles_default_InlineClientBundleGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/DocumentModeAsserter_DocumentModeProperty.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/DocumentModeAsserter_DocumentModeProperty.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_.java" />
@@ -173,7 +173,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/fenrir/ProfileView.html" afterPath="$PROJECT_DIR$/src/main/resources/com/fenrir/ProfileView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fenrir/ProfileView.html" afterPath="$PROJECT_DIR$/target/classes/com/fenrir/ProfileView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fenrir/mailer/SendVerificationEmail.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/mailer/SendVerificationEmail.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplGecko1_8.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplGecko1_8.java" />
@@ -182,6 +181,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe9.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplIe9.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplSafari.java" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/useragent/client/UserAgentImplSafari.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fenrir/user/UserModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/fenrir/user/UserModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/dd/VAcceptCriterionFactoryImpl.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/dd/VAcceptCriterionFactoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Images_default_InlineClientBundleGenerator.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Images_default_InlineClientBundleGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Strings_.java" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Strings_.java" />
@@ -199,6 +199,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginLogger.log" afterPath="$PROJECT_DIR$/loginLogger.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/WEB-INF/deploy/com.fenrir.MyAppWidgetset/rpcPolicyManifest/manifest.txt" afterPath="$PROJECT_DIR$/target/LoginApp-1.0-SNAPSHOT/WEB-INF/classes/VAADIN/widgetsets/WEB-INF/deploy/com.fenrir.MyAppWidgetset/rpcPolicyManifest/manifest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/WEB-INF/deploy/com.fenrir.MyAppWidgetset/rpcPolicyManifest/manifest.txt" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/WEB-INF/deploy/com.fenrir.MyAppWidgetset/rpcPolicyManifest/manifest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -320,12 +321,22 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="252" column="52" selection-start-line="252" selection-start-column="52" selection-end-line="252" selection-end-column="52" />
+              <caret line="127" column="135" selection-start-line="127" selection-start-column="135" selection-end-line="127" selection-end-column="135" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2248#5204#0" expanded="true" />
-                <element signature="e#5203#5204#0" expanded="true" />
+                <element signature="e#2615#6348#0" expanded="true" />
+                <element signature="e#6347#6348#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/user/UserView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2777778">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -334,21 +345,38 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/user/UserModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
+                <element signature="e#1689#1690#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#2173#2174#0" expanded="true" />
+                <element signature="e#2223#2224#0" expanded="true" />
+                <element signature="e#2720#2721#0" expanded="true" />
+                <element signature="e#2758#2759#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendVerificationEmail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/mailer/SendVerificationEmail.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/user/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -358,20 +386,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/database/DatabaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLogger.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7308917">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -413,9 +429,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/User/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/database/DBConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/database/DatabaseConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fenrir/user/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fenrir/user/UserModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fenrir/user/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fenrir/user/UserView.java" />
       </list>
     </option>
   </component>
@@ -430,10 +447,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -915,8 +930,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -925,10 +940,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30728617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31256714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27648306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284055" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -955,7 +970,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -970,8 +985,8 @@
           <caret line="168" column="38" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -990,8 +1005,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1012,8 +1027,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1034,8 +1049,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1046,8 +1061,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1075,8 +1090,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1087,8 +1102,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1099,8 +1114,8 @@
           <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1111,8 +1126,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1123,8 +1138,8 @@
           <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1143,8 +1158,8 @@
           <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,8 +1170,8 @@
           <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1167,8 +1182,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1179,8 +1194,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1199,8 +1214,8 @@
           <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1260,24 +1275,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/mailer/SendVerificationEmail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.75">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="252" column="52" selection-start-line="252" selection-start-column="52" selection-end-line="252" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2248#5204#0" expanded="true" />
-            <element signature="e#5203#5204#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1285,28 +1288,75 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/database/DatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/mailer/SendVerificationEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9166667">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/user/UserModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#2173#2174#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+            <element signature="e#2720#2721#0" expanded="true" />
+            <element signature="e#2758#2759#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/util/logger/UserLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/MyUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7308917">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="135" selection-start-line="127" selection-start-column="135" selection-end-line="127" selection-end-column="135" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2615#6348#0" expanded="true" />
+            <element signature="e#6347#6348#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fenrir/user/UserView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2777778">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
