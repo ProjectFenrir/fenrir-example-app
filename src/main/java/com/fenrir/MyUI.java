@@ -2,7 +2,9 @@ package com.fenrir;
 
 import javax.servlet.annotation.WebServlet;
 
+import com.fenrir.database.DatabaseConnection;
 import com.fenrir.mailer.SendVerificationEmail;
+import com.fenrir.user.UserModel;
 import com.fenrir.util.logger.UserLogger;
 import com.vaadin.annotations.DesignRoot;
 import com.vaadin.annotations.Theme;
@@ -11,7 +13,6 @@ import com.vaadin.annotations.Widgetset;
 import com.vaadin.navigator.Navigator;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
-import com.vaadin.server.Sizeable;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.ui.*;
@@ -30,8 +31,8 @@ import java.sql.SQLException;
 public class MyUI extends UI {
 
     Navigator navigator;
-    User user;
-    DBConnect db = null;
+    UserModel userModel;
+    DatabaseConnection db = null;
     UserLogger log = null;
     SecureRandom random;
 
@@ -79,7 +80,7 @@ public class MyUI extends UI {
                             }
 
 //                            Get user id & email
-                            db = new DBConnect();
+                            db = new DatabaseConnection();
                             int clientId = 0;
                             try {
                                 db.connect();
@@ -90,14 +91,15 @@ public class MyUI extends UI {
                                     token = random.nextInt(99999 - 10000 + 1) + 10000;
 
 //                                    Verify user credentials
-                                    user = new User(clientId, tfPassword.getValue(), db);
-                                    user.verify();
-                                    tfPassword.setValue(user.getPassword());
+                                    userModel = new UserModel(clientId, tfPassword.getValue(), db);
+                                    userModel.passwordIsCorrect();
+                                    tfPassword.setValue(userModel.getPassword());
+                                    System.out.println(userModel.getPassword());
 //                                    If state (=2); grant access
-                                    if (user.getState() == 2) {
+                                    if (userModel.passwordIsCorrect() == true) {
                                         log.getInstance().logAutorisation(tfUsername.getValue(), true);
                                         SendVerificationEmail mail = new SendVerificationEmail();
-                                        mail.sendEmail(user.getUsername(), user.getEmail(), token);
+                                        mail.sendEmail(userModel.getUsername(), userModel.getEmail(), token);
                                         navigator.navigateTo(VERIFICATIONVIEW);
                                     } else {
                                         log.getInstance().logAutorisation(tfUsername.getValue(), false);
@@ -152,14 +154,14 @@ public class MyUI extends UI {
                         @Override
                         public void buttonClick(Button.ClickEvent event) {
                             if (tfToken.getValue().equals(token.toString())) {
-                                log.logVerification(user.getUsername(), tfToken.getValue(), true);
-                                user.setState(3);
+                                log.logVerification(userModel.getUsername(), tfToken.getValue(), true);
+                                userModel.setState(2);
                                 navigator.navigateTo(MAINVIEW);
                             } else {
                                 tfToken.setValue("token");
                                 incorrectTokenEntry++;
                                 if (incorrectTokenEntry > 2) {
-                                    log.logVerification(user.getUsername(), tfToken.getValue(), false);
+                                    log.logVerification(userModel.getUsername(), tfToken.getValue(), false);
                                     navigator.navigateTo(LOGINVIEW);
                                 }
                             }
@@ -176,14 +178,14 @@ public class MyUI extends UI {
         @Override
         public void enter(ViewChangeListener.ViewChangeEvent event) {
 //            If no user session is found; redirect to login
-            if (user == null) {
+            if (userModel == null) {
                 log.getInstance().logUnauthorizedVisit();
                 navigator.navigateTo(LOGINVIEW);
             }
 
-            if (user != null) {
+            if (userModel != null) {
 //            If user session is found, but not authorised; redirect to login
-                if (user.getState() != 2)
+                if (userModel.passwordIsCorrect() != true)
                     navigator.navigateTo(LOGINVIEW);
             } else {
                 Notification.show("Requesting token");
@@ -220,7 +222,7 @@ public class MyUI extends UI {
             logout.addClickListener(new Button.ClickListener() {
                 @Override
                 public void buttonClick(Button.ClickEvent event) {
-                    user.setState(1);
+                    userModel.setState(1);
                     navigator.navigateTo(LOGINVIEW);
                 }
             });
@@ -240,19 +242,19 @@ public class MyUI extends UI {
         @Override
         public void enter(ViewChangeListener.ViewChangeEvent event) {
 //            If no user session is found; redirect to login
-            if (user == null) {
+            if (userModel == null) {
                 log.getInstance().logUnauthorizedVisit();
                 navigator.navigateTo(LOGINVIEW);
             }
 
-            if (user != null) {
+            if (userModel != null) {
 //            If user session is found, but not authorised; redirect to login
-                if (user.getState() != 3) {
+                if (userModel.getState() != 2) {
                     navigator.navigateTo(LOGINVIEW);
 //            If authorised; grant access and redirect to main
                 } else {
                     if (event.getParameters() == null || event.getParameters().isEmpty()) {
-                        equalPanel.setContent(new Label("Hello, " + user.getUsername()));
+                        equalPanel.setContent(new Label("Hello, " + userModel.getUsername()));
                         return;
                     } else
                         equalPanel.setContent(new ProfileView(event.getParameters()));
