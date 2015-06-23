@@ -36,7 +36,7 @@ public class UserController {
     public int getState() { return model.getState(); }
 
     public void updateView() {
-        view.printUserDetails(model.getUsername(), model.getCompany(), model.getEmail());
+        view.printWelcomeMessage(model.getUsername(), model.getCompany(), model.getEmail());
     }
 
     public void setUserId(int id) {

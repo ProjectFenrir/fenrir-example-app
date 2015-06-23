@@ -125,7 +125,6 @@ public class MyUI extends UI {
                                         SendVerificationEmail mail = new SendVerificationEmail();
 
                                         userController.setUserEmail("email");
-                                        userView.printUserDetails(userModel.getUsername(), userModel.getCompany(), userModel.getEmail());
                                         mail.sendEmail(userController.getUserName(), userController.getUserEmail(), token);
 
                                         navigator.navigateTo(VERIFICATIONVIEW);
@@ -294,7 +293,8 @@ public class MyUI extends UI {
 //            If authorised; grant access and redirect to main
                 } else {
                     if (event.getParameters() == null || event.getParameters().isEmpty()) {
-                        equalPanel.setContent(new Label("Hello, " + userController.getUserName()));
+                        userController.updateView();
+                        equalPanel.setContent(new Label("Hello " + userController.getUserName()));
                         return;
                     } else
                         equalPanel.setContent(new ProfileView(event.getParameters()));

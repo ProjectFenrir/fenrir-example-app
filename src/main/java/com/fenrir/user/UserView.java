@@ -5,9 +5,7 @@ package com.fenrir.user;
  */
 public class UserView {
 
-    public void printUserDetails(String userName, String userCompany, String userEmail) {
-        System.out.println("User:\t\t " + userName);
-        System.out.println("Company:\t " + userCompany);
-        System.out.println("Email:\t\t " + userEmail);
+    public void printWelcomeMessage(String userName, String userCompany, String userEmail) {
+        System.out.println("Hello " + userName + " (" + userEmail + ") from " + userCompany);
     }
 }
