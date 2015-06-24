@@ -1,5 +1,7 @@
 package com.fenrir.database;
 
+import com.fenrir.util.logger.UserLogger;
+
 import java.sql.*;
 
 /**
@@ -7,10 +9,11 @@ import java.sql.*;
  */
 public class DatabaseConnection {
 
-    String URL = "jdbc:mysql://localhost:3306/fenrir_customers";
-    String user = "root";
-    //    String password = "1ExmAzjorjUZRoW3AMHA";
-    String password = "";
+    UserLogger log;
+
+    String URL = "jdbc:mysql://188.166.123.191:3306/fenrir_clients";
+    String user = "fenriruser";
+    String password = "tempunreal";
 
     public Connection conn;
     Statement stmt = null;
@@ -21,7 +24,7 @@ public class DatabaseConnection {
             Class.forName("com.mysql.jdbc.Driver");
         }
         catch(ClassNotFoundException ex) {
-            System.out.println("Error: unable to load driver class!");
+            log.logInfo(ex.getMessage() + " driver not found");
             System.exit(1);
         }
 

@@ -57,4 +57,6 @@ public class UserLogger {
     public static void logAction(String item) {
         LOGGER.log(Level.INFO, username + " currently viewing -- " + item);
     }
+
+    public static void logInfo(String item) { LOGGER.log(Level.INFO, item); }
 }

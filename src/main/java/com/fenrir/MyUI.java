@@ -121,6 +121,7 @@ public class MyUI extends UI {
 //                                    If state (=2); grant access
                                     if (userModel.passwordIsCorrect() == true) {
                                         log.getInstance().logAutorisation(username, true);
+                                        log.getInstance().logInfo(userController.getUserDatabasePassword());
 
                                         SendVerificationEmail mail = new SendVerificationEmail();
 
@@ -143,7 +144,7 @@ public class MyUI extends UI {
                                     Notification.show("Unknown user");
                                 }
                             } catch (SQLException e) {
-                                e.printStackTrace();
+                                log.getInstance().logInfo(e.getMessage());
                             }
                         }
                     });
@@ -193,13 +194,13 @@ public class MyUI extends UI {
                                 userController.setState(2);
                                 navigator.navigateTo(MAINVIEW);
                             } else {
-                                tfToken.setValue("token");
                                 incorrectTokenEntry++;
                                 if (incorrectTokenEntry > 2) {
                                     log.logVerification(userController.getUserName(), tfToken.getValue(), false);
                                     navigator.navigateTo(LOGINVIEW);
                                 }
                             }
+                            tfToken.setValue("token");
                         }
                     });
 
